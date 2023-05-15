@@ -1,6 +1,4 @@
 "use strict";
-
-//tsc 실행
 function throwErrorBeforeRefactor() {
     try {
         throw new Error('예외 발생'); // 에러 발생
