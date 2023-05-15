@@ -48,5 +48,5 @@ const notStaff: DiffInterface = {
 }
 structuralTypingExample(staff);
 
-structuralTypingExample(notStaff);  //에러발생
+//structuralTypingExample(notStaff);  //에러발생
 
