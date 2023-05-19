@@ -72,6 +72,7 @@ const r2: Room = obj; //    정상, 임시 변수를 도입하면 잉여 속성 
 ```
 interface Options { title: string; darkMode?: boolean };
 const o1: Options = document; //    document 가 title 속성을 가지고 있기 때문에 정상할당
-
 ```
 
+## 후기
+객체 래퍼 타입의 동작 방식에 대하여 설명해주는 부분이 뜻깊었다. (객체의 prototype 메소드 사용 시 기본형을 String 객체로 래핑하고, 메소드를 호출하고 래핑한 객체를 버리는 동작방식)
