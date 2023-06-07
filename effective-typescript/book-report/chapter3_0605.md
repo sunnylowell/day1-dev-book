@@ -3,7 +3,7 @@ es2015는 콜백지옥을 극복하기 위해 프로미스 개념을 도입하�
 es2017 에서는 async 와 await 을 도입하여 콜백지옥을 더욱 간단하게 처리할 수 있게 되었다.
 async 함수 내에서 await 중인 promise 가 reject 되면 예외를 던지므로, 일반적인 try/catch 구문을 사용할 수 있다.
 ```
-aasync function fetchPages() {
+async function fetchPages() {
   try {
     const response1 = await fetch(url1);
     const response2 = await fetch(url2);
